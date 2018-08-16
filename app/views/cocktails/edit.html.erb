@@ -1,0 +1,11 @@
+<h1>Edit <%= @cocktail.name %></h1>
+<p>Find me in app/views/cocktails/edit.html.erb</p>
+
+<h1>Cocktail task</h1>
+
+<%= render 'form', cocktail: @cocktail %>
+
+<hr>
+<%= link_to cocktails_path do %>
+  <i class="fa fa-history"></i> Back to list
+<% end %>
